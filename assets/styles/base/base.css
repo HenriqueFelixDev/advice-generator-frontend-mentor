@@ -1,0 +1,23 @@
+:root {
+    --primary-color: hsl(150, 100%, 66%);
+    --primary-color-light: hsl(193, 38%, 86%);
+    --neutral-color: hsl(217, 19%, 38%);
+    --neutral-color-dark: hsl(217, 19%, 24%);
+    --neutral-color-darker: hsl(218, 23%, 16%);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: var(--neutral-color-darker);
+    color: var(--primary-color-light);
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

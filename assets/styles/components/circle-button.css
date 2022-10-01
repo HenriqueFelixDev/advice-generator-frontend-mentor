@@ -1,0 +1,13 @@
+.circle-button {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 99999px;
+    cursor: pointer;
+    padding: 1rem;
+    transition: all .15s ease-out;
+}
+
+.circle-button:hover {
+    box-shadow: 0px 0px 32px var(--primary-color);
+    transform: scale(1.05);
+}
